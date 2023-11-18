@@ -19,12 +19,12 @@ const TextMeButton = () => {
     const phoneNumber = "+14084761238";
     const email = "rmarathay+consulting@gmail.com"
     const emailMessage = "Hello, I would like to chat about a custom data solution!\n\nMy name is:\n\nThe name of my business is:\n\nMy website is:\n\nThe problem I am facing is:\n\n Thanks!\n <Your Name>"
-    const textMessage = "Hi,%I%would%like%to%chat%about%a%custom%data%solution!"
+    // const textMessage = "Hi,%I%would%like%to%chat%about%a%custom%data%solution!"
 
     const handleClick = () => {
         if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
             // Mobile device detected
-            window.open(`sms:${phoneNumber}body=${encodeURIComponent(textMessage)}`);
+            window.open(`sms:${phoneNumber}`);
         } else {
             // Non-mobile device, prompt to manually send a message
             window.open(`mailto:${email}?body=${encodeURIComponent(emailMessage)}`)
