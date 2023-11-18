@@ -4,15 +4,10 @@ import {
     Box,
     Button,
     Typography,
-    Stack,
     Toolbar,
     Grid,
     AppBar,
-  } from "@mui/material";
-
-interface TextMeButtonprops {
-    text: string;
-}
+} from "@mui/material";
 
 const TextMeButton = () => {
 
