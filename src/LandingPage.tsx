@@ -24,7 +24,7 @@ const TextMeButton = () => {
     const handleClick = () => {
         if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
             // Mobile device detected
-            window.open(`sms:${phoneNumber}?body=${encodeURIComponent(textMessage)}`);
+            window.open(`sms:${phoneNumber}body=${encodeURIComponent(textMessage)}`);
         } else {
             // Non-mobile device, prompt to manually send a message
             window.open(`mailto:${email}?body=${encodeURIComponent(emailMessage)}`)
