@@ -1,15 +1,11 @@
-import React, {useState} from 'react';
+import React from 'react';
 import { useNavigate } from "react-router-dom";
 import { 
     Box,
-    Button,
     Typography,
-    Toolbar,
     Grid,
-    AppBar,
-    Link,
 } from "@mui/material";
-import {TextMeButton, LearnMoreButton, CustomButton} from '../components/Buttons.tsx';
+import {LearnMoreButton, CustomButton} from '../components/Buttons.tsx';
 
 export default function Home(){
     const navigate = useNavigate();
