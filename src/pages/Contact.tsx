@@ -1,18 +1,10 @@
-import React, {useState, useEffect} from 'react';
+import React, {useEffect} from 'react';
 import { 
     Box,
-    Button,
     Typography,
-    Toolbar,
     Grid,
     Stack,
-    Link,
 } from "@mui/material";
-import { InlineWidget } from "react-calendly";
-
-import SmartphoneIcon from '@mui/icons-material/Smartphone';
-import EmailIcon from '@mui/icons-material/Email';
-import LanguageIcon from '@mui/icons-material/Language';
 
 export default function Contact(){
 

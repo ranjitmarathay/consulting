@@ -1,12 +1,10 @@
-import React, {useState} from 'react';
+import React from 'react';
 import { 
     Box,
     Button,
     Typography,
     Toolbar,
-    Grid,
     AppBar,
-    Link,
     Menu,
     MenuItem,
     IconButton,
@@ -95,28 +93,6 @@ export default function Header(){
                         </Button>
                     </Box>
                 )}
-                {/* <Box sx={{ display: 'flex', alignItems: 'flex-end' }}>
-                    <Button variant="text" onClick={() => navigate("/")}>
-                        <Typography fontSize={20} fontWeight={500} color="#000000" textTransform="none">
-                            Home
-                        </Typography>
-                    </Button>
-                    <Button variant="text" onClick={() => navigate("/services")}>
-                        <Typography fontSize={20} fontWeight={500} color="#000000" textTransform="none">
-                            Services
-                        </Typography>
-                    </Button>
-                    <Button variant="text" onClick={() => navigate("/about")}>
-                        <Typography fontSize={20} fontWeight={500} color="#000000" textTransform="none">
-                            About
-                        </Typography>
-                    </Button>
-                    <Button variant="text" onClick={() => navigate("/contact")}>
-                        <Typography fontSize={20} fontWeight={500} color="#000000" textTransform="none">
-                            Contact
-                        </Typography>
-                    </Button>
-                </Box> */}
             </Toolbar>
         </AppBar>
     )

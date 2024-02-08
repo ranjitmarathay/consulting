@@ -4,7 +4,6 @@ import {
     Typography,
     Grid,
     Stack,
-    Paper,
 } from "@mui/material";
 
 import picture from "../images/picture.jpeg";
