@@ -8,7 +8,6 @@ import {
 import {LearnMoreButton, CustomButton} from '../components/Buttons.tsx';
 
 export default function Home(){
-    const navigate = useNavigate();
     const paddingLeftVar = "10px"
 
     return (            

@@ -2,7 +2,6 @@ import React from 'react';
 import {
     Box,
     Typography,
-    Grid,
     Stack,
 } from "@mui/material";
 import Offerings from "../components/Offerings.tsx";
