@@ -72,11 +72,20 @@ export default function Home(){
                                 </ol>
                             </Typography>
                         </Box>
+                        <Box
+                            sx={{
+                                display: "flex",
+                                justifyContent: "center",
+                                alignItems: "center",
+                            }}
+                        >
+                            <LearnMoreButton navigateTo="/services"/>
+                        </Box>
                     </Box>
                 </Grid>
                 <Grid item xs={12}>
                     <Typography fontSize={28} fontWeight={600}>
-                        Do words like "CNAME"", "SSL" and "DNS" make your head spin?
+                        Do words like "CNAME", "SSL" and "DNS" make your head spin?
                     </Typography>
                     <Box sx={{paddingLeft: paddingLeftVar, paddingBottom: "25px"}}>
                         <Box

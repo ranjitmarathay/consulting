@@ -32,37 +32,18 @@ export default function About(){
                             Who I Am
                         </Typography>
                         <Typography variant="body1">
-                            Ranjit is a software engineer with a passion for technology and business optimization. After earning a degree from Rensselaer Polytechnic Institute in Computer Science, he honed his skills at a data analytics, a cybersecurity and a property management start up before starting his consulting practice.
-                        </Typography>
-                        <Typography variant="h5" sx={{ fontWeight: 700 }}>
-                            My Journey
-                        </Typography>
-                        <Typography variant="body1">
-                            Starting my career as [Your Initial Job Position], I quickly realized the importance of [something you learned or experienced]. Over the years, I've had the privilege to work with [mention any renowned companies or projects, if applicable], allowing me to deepen my expertise in [Your Area of Expertise] and make a real impact in [Industry/Field].
+                            {/* Ranjit is a software engineer whose passion for technology and business optimization has propelled his career across diverse industries. After earning a degree in Computer Science from Rensselaer Polytechnic Institute, Ranjit embarked on a professional journey that saw him excel in multiple specialized roles. He first sharpened his technical prowess at a leading data analytics startup, where he leveraged big data to drive decision-making processes. Following this, he transitioned to a cybersecurity firm, dedicating himself to safeguarding digital assets and enhancing system integrity. Ranjit's quest for new challenges then led him to a property management startup, where he innovated solutions to streamline operations and improve customer experiences. Armed with this rich tapestry of experiences, Ranjit founded his consulting practice, aiming to fuse technology with strategic business insights to elevate organizations' operational efficiency and growth. */}
+                            Ranjit, a software engineer with a Computer Science degree from Rensselaer Polytechnic Institute, has excelled across various sectors. His career journey took him from a data analytics startup, enhancing decision-making with big data, to a cybersecurity firm focused on protecting digital assets, and finally to a property management startup, where he streamlined operations and boosted customer experiences. Leveraging these diverse experiences, Ranjit founded his consulting practice to merge technology with strategic insights, boosting organizational efficiency and growth.
                         </Typography>
                         <Typography variant="h5" sx={{ fontWeight: 700 }}>
                             Unique Skills
                         </Typography>
                         <Typography variant="body1">
-                            Today, I leverage my extensive background in [Your Professional Background] to provide [services you offer or contributions you make to your field or company]. I'm committed to [what you're passionate about professionally], and I'm always looking for new ways to [goal or mission related to your profession].
+                            Product Development, Monetization Strategy, Business Process Optimization, IT System Overhaul, Business Expansion, M&A Integration, Managed DNS, Website Overhauls, Web Service Cost Optimization
                         </Typography>
                     </Stack>
                 </Grid>
             </Grid>
         </Box>
-        // <Box sx={{display: "flex"}}>
-        //     <Stack>
-        //         <Box
-        //             sx={{
-        //                 textAlign: "center",
-        //                 paddingTop: "40px"
-        //             }}
-        //         >
-        //             <Typography fontSize={34} fontWeight={800}>
-        //                 About
-        //             </Typography>
-        //         </Box>
-        //     </Stack>
-        // </Box>
     )
 }

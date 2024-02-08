@@ -23,8 +23,8 @@ export default function Services(){
                     </Typography>
                 </Box>
                 <Box sx={{padding: "40px"}}>
-                    <Typography fontSize={20} fontWeight={400}>
-                        We specialize in assisting you through major changes in your business like a new acquisition, business expansion and IT system overhaul.
+                    <Typography fontSize={16} fontWeight={400}>
+                            We excel in navigating your business through pivotal transitions, such as new acquisitions, expansions, and comprehensive IT system updates, ensuring seamless integration and enhanced operational efficiency.
                     </Typography>
                 </Box>
                 <Offerings/>

@@ -38,10 +38,12 @@ export default function Contact(){
                     Contact
                 </Typography>
                 <Typography fontSize={20} fontWeight={700} sx={{ px: 2 }}>
-                    We do our best to respond to all inquiries within 24 hours.
+                    Your success is our top priority.
                 </Typography>
+            </Stack>
+            <Stack spacing={2} sx={{ textAlign: "left", paddingTop: "40px" }}>
                 <Typography fontSize={16} fontWeight={400} sx={{ px: 2 }}>
-                    In this call we will discuss your business needs and how we can help you. If we can't help you, we will do our best to refer you to someone who can.
+                    We guarantee a response to all inquiries within 24 hours, because we understand the value of your time. During our consultation call, we'll dive deep into your business needs and explore how we can propel you towards your goals. And in the rare instance we're not the perfect fit, we're committed to guiding you to someone who can help. Let's start a conversation that could transform your business. Schedule your meeting today.
                 </Typography>
             </Stack>
             <Grid container spacing={2} justifyContent="center" alignItems="center" sx={{ padding: "20px", paddingTop: "30px" }}>
