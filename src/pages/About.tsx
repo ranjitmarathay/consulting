@@ -15,7 +15,7 @@ export default function About(){
                 About
             </Typography>
             <Grid container spacing={2} justifyContent="center">
-                <Grid item xs={6} md={3} lg={2}>
+                <Grid item xs={12} md={6} lg={4}>
                     <Box sx={{ display: 'flex', justifyContent: 'center' }}>
                         <img src={picture} alt="Your Name" style={{ width: '100%', height: 'auto', borderRadius: '50%' }} />
                     </Box>
@@ -25,7 +25,7 @@ export default function About(){
                         </Typography>
                     </Box>
                 </Grid>
-                <Grid item xs={6} md={3} lg={2}>
+                <Grid item xs={12} md={6} lg={4}>
                     <Stack spacing={2}>
                         <Typography variant="h5" sx={{ fontWeight: 700 }}>
                             Who I Am
