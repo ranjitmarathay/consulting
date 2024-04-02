@@ -34,7 +34,7 @@ export default function Header(){
         <AppBar position="static" sx={{ bgcolor: 'white', boxShadow: '0 4px 2px -2px gray', borderColor: "#000000" }}>
             <Toolbar>
                 <Typography fontSize={28} sx={{ flexGrow: 1, cursor: "pointer" }} fontWeight={800} color={"#000000"} onClick={() => navigate("/")}>
-                   RPM Consulting Services
+                   RPM Digital Solutions
                 </Typography>
                 {isMobile ? (
                     <>
