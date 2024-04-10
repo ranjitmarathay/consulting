@@ -6,7 +6,7 @@ import {
     Stack,
 } from "@mui/material";
 
-import picture from "../images/picture.jpeg";
+import picture from "../images/retouched_ai_headshot_smaller.jpeg";
 
 export default function About(){
     return (
@@ -16,8 +16,19 @@ export default function About(){
             </Typography>
             <Grid container spacing={2} justifyContent="center">
                 <Grid item xs={12} md={6} lg={4}>
-                    <Box sx={{ display: 'flex', justifyContent: 'center' }}>
-                        <img src={picture} alt="Your Name" style={{ width: '100%', height: 'auto', borderRadius: '50%' }} />
+                    <Box sx={{
+                        display: 'flex',
+                        justifyContent: 'center',
+                        '& img': {
+                            width: '100%',
+                            height: 'auto',
+                            borderRadius: '50%',
+                            '@media (max-width: 600px)': {
+                                width: '50%',
+                            },
+                        },
+                    }}>
+                        <img src={picture} alt="Ranjit Marathay" style={{ width: '100%', height: 'auto', borderRadius: '50%' }} />
                     </Box>
                     <Box sx={{ display: 'flex', justifyContent: 'center', paddingTop: "20px" }}>
                         <Typography variant="body1" sx={{ fontWeight: 700 }}>
