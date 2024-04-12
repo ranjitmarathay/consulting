@@ -14,6 +14,8 @@ import { useNavigate } from 'react-router-dom';
 import { useTheme } from '@mui/material/styles';
 import useMediaQuery from '@mui/material/useMediaQuery';
 
+import logo from "../images/logo.png";
+
 
 export default function Header(){
     const navigate = useNavigate();
@@ -33,6 +35,13 @@ export default function Header(){
     return (
         <AppBar position="static" sx={{ bgcolor: 'white', boxShadow: '0 4px 2px -2px gray', borderColor: "#000000" }}>
             <Toolbar>
+                <Box 
+                    component="img"
+                    sx={{
+                        maxHeight: 80,
+                    }}
+                    src={logo}
+                />
                 <Typography fontSize={28} sx={{ flexGrow: 1, cursor: "pointer" }} fontWeight={800} color={"#000000"} onClick={() => navigate("/")}>
                    RPM Digital Solutions
                 </Typography>
